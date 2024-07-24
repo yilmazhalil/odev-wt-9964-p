@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>Start Bootstrap</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#">Yancep</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#features"
+                  >Özellikler</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#app-download">Uygulamayı İndir</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="btn btn-primary rounded-5"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="bi bi-chat-dots"></i>Send Feedback
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="bg-light">
+      <div class="container">
+        <div class="row pt-5 pb-5">
+          <div class="col-lg-6">
+            <h1 class="display-1">Yancep'le Koy Kenara!</h1>
+            <p class="text-muted fs-4 mt-3">
+              Yarınların için bugünden Yancep’le koy kenara. Borsa, yabancı
+              piyasalar, altın, gümüş ve daha fazlası tek platformda.
+              <br /><br />
+              Yancep'i indir, yatırım hesabını kolayca aç. Elektrikli araçlar,
+              blok zinciri, temiz enerji, tarım gibi temalara 400’den fazla
+              yatırım fonu ile yatırım yapmaya başla.
+            </p>
+            <div class="row">
+              <div class="col-auto">
+                <img
+                  src="/assets/img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+                  alt=""
+                />
+              </div>
+              <div class="col-auto">
+                <img
+                  src="/assets/img/GetItOnGooglePlay_Badge_Web_color_English.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="circle">
+              <img
+                class="img-phone-1 img-fluid"
+                src="/assets/img/Ana_sayfa.png"
+                alt="mobile-phone"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+
+    <div class="bg-testimonial text-center pt-5 pb-5">
+      <h2 class="text-black fs-1">15'ten Fazla Bankadan Yancep'e Para Aktar</h2>
+      <img
+        class="mt-3"
+        src="/assets/img/Property 1=Logo _ Fontlogo_Mavi (3).webp"
+        alt=""
+        width="10%"
+      />
+    </div>
+
+    <!-- App Features -->
+
+    <div id="features" class="bg-white">
+      <div class="container pt-5 pb-5">
+        <div class="row pt-5 pb-5 align-items-center">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="circle-2">
+              <div class="img-phone-2">
+                <img class="img-fluid" src="/assets/img/Ana_sayfa.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex justify-content-center text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <i class="bi bi-lock-fill fs-1"></i>
+                  <h3 class="mt-3">SPK Lisanslı Aracı Kurum Güvencesi</h3>
+                  <p class="text-muted">
+                    Yancep'te SPK tarafından yetkilendirilen ve denetlenen aracı
+                    kurumlarda yatırım hesabı açabilirsin. (SPK: Sermaye
+                    Piyasası Kurulu)
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <i class="bi bi-coin fs-1"></i>
+                  <h3 class="mt-3">1 TL ile Yatırım</h3>
+                  <p class="text-muted">
+                    Yancep'te yatırıma başlamak için büyük bir birikime
+                    ihtiyacın yok. 1 TL ile bile yatırıma başlayabilir, küçük
+                    birikimlerini büyük yatırımlara dönüştürebilirsin.
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <i class="bi bi-person-gear fs-1"></i>
+                  <h3 class="mt-3">Portföy Önerileri</h3>
+                  <p class="text-muted">
+                    Yancep'te sadece birkaç soruya cevap vererek, uzmanlar
+                    tarafından hazırlanmış portföylere yatırım yapmaya
+                    başlayabilirsin.
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <i class="bi bi-book fs-1"></i>
+                  <h3 class="mt-3">Finans Dünyasından Gelişmeler</h3>
+                  <p class="text-muted">
+                    Finans dünyasından güncel haberler, fon analizleri,
+                    podcastler, yatırım ipuçları gibi birçok farklı finans
+                    içeriğine ulaşabilirsin.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Web Design Section -->
+
+    <div class="bg-light">
+      <div class="container pt-5 pb-5">
+        <div class="row align-items-center pb-5 pt-5">
+          <div class="col-lg-6">
+            <h2 class="display-3">3 Adımda Yancep'le Koy Kenara!</h2>
+            <p class="text-muted fs-5">
+              1 - Hesap Aç <br />
+              2 - Para Aktar <br />
+              3 - Yatırıma Başla
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row justify-content-center">
+              <img
+                class="img-phone-3 img-fluid rounded-circle"
+                src="/assets/img/portföy.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Building -->
+    <div class="building-container">
+      <div class="building-bg">
+        <div class="overlay">
+          <div class="content px-5">
+            <h2 class="text-white display-1 ps-5 pt-5 d-block text-start">
+              Bekleme <br />
+              Yatırım Yap!
+            </h2>
+            <div class="text-start ps-5">
+              <button class="btn btn-outline-light p-3 rounded-5">
+                Ücretsiz İndir
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Get App Now Container -->
+
+    <div id="app-download" class="app-badge-container pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="text-white">Uygulamayı İndirin</h2>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <img
+              src="/assets/img/GetItOnGooglePlay_Badge_Web_color_English.png"
+              alt=""
+            />
+          </div>
+          <div class="col-auto">
+            <img
+              src="/assets/img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-black">
+      <div class="container pt-5 pb-5">
+        <div class="text-center">
+          <small class="text-white-50"
+            >© Yılmaz Halil Gündaş 2024. All Rights Reserved.</small
+          >
+          <div>
+            <a href="#" class="text-white-50 text-decoration-none">Privacy</a
+            ><span>-</span
+            ><a href="#" class="text-white-50 text-decoration-none">Terms</a
+            ><span>-</span
+            ><a href="#" class="text-white-50 text-decoration-none">F.Q.A</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Send Feedback
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form
+              action="https://formsubmit.co/gundasyilmazhalil@gmail.com"
+              method="post"
+            >
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="form-floating mt-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="floatingTel"
+                  placeholder="Phone Number"
+                />
+                <label for="floatingTel">Phone Number</label>
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control mt-3"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Message</label>
+              </div>
+            </form>
+          </div>
+          <div class="d-grid">
+            <button class="btn-primary btn btn-lg rounded-5 mt-5" type="submit">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

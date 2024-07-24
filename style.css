@@ -1,0 +1,122 @@
+.circle {
+  content: "";
+  width: 375px;
+  height: 375px;
+  background-color: #538cf5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img-phone-1 {
+  max-width: 60%;
+}
+
+.circle::before {
+  content: "✖︎";
+  position: absolute;
+  color: blue;
+  font-size: 28px;
+  left: 0;
+  bottom: 0;
+  transform: rotate(-15deg);
+}
+
+.circle::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #9f1ae1;
+  top: 0;
+  right: 0;
+}
+
+.bg-testimonial {
+  background-color: antiquewhite;
+}
+
+.circle-2 {
+  content: "";
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background-color: #538cf5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img-phone-2 {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.circle-2::before {
+  content: "✖︎";
+  position: absolute;
+  font-size: 28px;
+  color: blue;
+  top: 0;
+  right: 0;
+  margin-right: -50px;
+  transform: rotate(16deg);
+}
+
+.circle-2::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #9f1ae1;
+  bottom: 0;
+  left: 0;
+}
+
+.building-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.building-bg {
+  background-image: url(/assets/img/spaceship-orbits-dark-galaxy-glowing-blue-comet-generated-by-ai_188544-9662.avif);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #7f7f7f;
+}
+
+.app-badge-container {
+  background-color: #538cf5;
+}
+
+.modal-header {
+  background-color: #538cf5;
+}
+
+.bi-bi-phone {
+  background: rgb(159, 26, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(159, 26, 225, 1) 0%,
+    rgba(85, 45, 235, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.img-phone-3 {
+  max-width: 50%;
+}
